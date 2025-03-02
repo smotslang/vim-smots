@@ -36,7 +36,7 @@ syntax match Smotsnary '@madeline'
 syntax match Smotsnary '\ [7-8]\+'
 highlight Smotsnary guifg=#FB8A97
 
-
+syntax region Comment start="--" end="--"
 
 syntax keyword Error gotm
 
