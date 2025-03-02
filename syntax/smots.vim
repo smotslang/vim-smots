@@ -21,7 +21,8 @@ highlight SpringLoop guifg=#B86B3F
 
 syntax keyword Spinner spinner
 highlight Spinner guifg=#74A6E4
-
+syntax keyword Spike spike
+highlight Spike guifg=#C7F9FF gui=undercurl
 
 syntax keyword GeneralKeyword run
 syntax keyword GeneralKeyword fall
@@ -31,7 +32,7 @@ syntax keyword GeneralKeyword smots5
 
 highlight GeneralKeyword guifg=#FFDC91
 
-"syntax keyword Number @madeline
+syntax match Smotsnary '@madeline'
 syntax match Smotsnary '\ [7-8]\+'
 highlight Smotsnary guifg=#FB8A97
 
